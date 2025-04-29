@@ -1,26 +1,26 @@
 - Content:
 ```
-# Express Server
+# Basic Express Server
 
 ## Setup Instructions
 
 1. Clone the repository:
-   ```bash
+   ```
    git clone <repository-url>
    ```
 
 2. Navigate into the project directory:
-   ```bash
-   cd express-server
+   ```
+   cd basic-express-server
    ```
 
 3. Install the dependencies:
-   ```bash
+   ```
    npm install
    ```
 
 4. Start the server:
-   ```bash
+   ```
    npm start
    ```
 
