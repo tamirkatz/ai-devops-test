@@ -1,5 +1,4 @@
 - Content:
-```javascript
 const express = require('express');
 const bodyParser = require('body-parser');
 
@@ -15,6 +14,5 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
-```
 
 -
