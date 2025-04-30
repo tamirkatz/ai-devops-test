@@ -1,19 +1,23 @@
-const express = require("express");
-const bodyParser = require("body-parser");
+- Content:
+```javascript
+const express = require('express');
+const bodyParser = require('body-parser');
 
 const app = express();
 const PORT = 3000;
 
+// Middleware
 app.use(bodyParser.json());
 
-app.get("/", (req, res) => {
-  res.send("Test message");
+// Routes
+app.get('/', (req, res) => {
+  res.send('Test message');
 });
 
-app.get("/api", (req, res) => {
-  res.send("ofri");
-});
-
+// Start server
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Server is running on http://localhost:${PORT}`);
 });
+```
+
+-
